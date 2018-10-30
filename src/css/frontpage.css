@@ -1,0 +1,24 @@
+@font-face {
+    font-family: "Uni Sans Regular";
+    src: url("../fonts/Uni\ Sans\ Regular.otf");
+    src: 
+    url("../fonts/Uni\ Sans\ Regular.otf") format("opentype");
+    }
+@font-face {
+    font-family: "Uni Sans Thin";
+    src: url("../fonts/Uni\ Sans\ Thin\ -\ CAPS.otf");
+    src:
+    url("../fonts/Uni\ Sans\ Thin\ -\ CAPS.otf") format("opentype");
+}
+
+html {
+    font-family: 'Uni Sans Regular';
+    min-height: 100%; /*extends the page to the end of the viewport*/
+}
+body {
+    width: 90%;
+    background:  #765DBD;
+    background: -webkit-linear-gradient(#765DBD,#5E8CC8); /* function to provide the color gradient*/
+    background: -moz-linear-gradient(#765DBD,#5E8CC8);
+    background: linear-gradient(#765DBD,#5E8CC8);
+}
